@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="DialogLogin">
+    <file>images/Login/close.png</file>
+    <file>images/Login/lgback.png</file>
+    <file>images/Login/login.png</file>
+    <file>images/Login/pwd1.png</file>
+    <file>images/Login/pwd2.png</file>
+    <file>images/Login/question.png</file>
+  </qresource>
+</RCC>
