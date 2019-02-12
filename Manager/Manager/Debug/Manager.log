@@ -1,22 +1,20 @@
-﻿生成启动时间为 2019/2/11 17:54:58。
-     1>项目“C:\Users\kf\Desktop\Manager\Manager\Manager.vcxproj”在节点 2 上(Build 个目标)。
-     1>CustomBuild:
-         Moc'ing Dialoglogin.h...
+﻿生成启动时间为 2019/2/12 17:58:42。
+     1>项目“C:\Users\kf\MyNewWork\Manager\Manager\Manager.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_Dialoglogin.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_Dialoglogin.cpp, GeneratedFiles\Release\moc_Dialoglogin.cpp.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtCore /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtGui /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dialoglogin.cpp GeneratedFiles\Debug\moc_Dialoglogin.cpp main.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MyMessageBox.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MyMessageBox.cpp, GeneratedFiles\Release\moc_MyMessageBox.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtCore /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtGui /IC:\Qt5\Qt5.5.0\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dialoglogin.cpp
          Dialoglogin.cpp
-         moc_Dialoglogin.cpp
-         main.cpp
-         正在生成代码...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kf\Desktop\Manager\Win32\Debug\\Manager.exe" /NOLOGO /LIBPATH:C:\Qt5\Qt5.5.0\5.5\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kf\Desktop\Manager\Win32\Debug\Manager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kf\Desktop\Manager\Win32\Debug\Manager.lib" /MACHINE:X86 /SAFESEH Debug\Dialoglogin.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kf\MyNewWork\Manager\Win32\Debug\\Manager.exe" /NOLOGO /LIBPATH:C:\Qt5\Qt5.5.0\5.5\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kf\MyNewWork\Manager\Win32\Debug\Manager.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kf\MyNewWork\Manager\Win32\Debug\Manager.lib" /MACHINE:X86 /SAFESEH Debug\Dialoglogin.obj
          Debug\moc_Dialoglogin.obj
+         Debug\moc_MyMessageBox.obj
          Debug\qrc_Dialoglogin.obj
          Debug\main.obj
-         Manager.vcxproj -> C:\Users\kf\Desktop\Manager\Win32\Debug\Manager.exe
-     1>已完成生成项目“C:\Users\kf\Desktop\Manager\Manager\Manager.vcxproj”(Build 个目标)的操作。
+         Debug\MyMessageBox.obj
+         Manager.vcxproj -> C:\Users\kf\MyNewWork\Manager\Win32\Debug\Manager.exe
+     1>已完成生成项目“C:\Users\kf\MyNewWork\Manager\Manager\Manager.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:11.35
+已用时间 00:00:02.05

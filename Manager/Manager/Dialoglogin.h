@@ -4,6 +4,7 @@
 #include <QDialog>
 #include <QtWidgets/QMainWindow>
 #include <QMouseEvent>
+#include "MyMessageBox.h"
 #include "ui_Dialoglogin.h"
 
 class DialogLogin : public QMainWindow
@@ -25,11 +26,12 @@ protected:
 	void mouseMoveEvent(QMouseEvent* event);
 	void mouseReleaseEvent(QMouseEvent* event);
 private:
-	Ui::DialogLoginClass ui;
-	bool		m_isShowPwd;
+	Ui::DialogLoginClass	ui;
+	bool					m_isShowPwd;
 
-	bool        mMoveing;
-	QPoint      mMovePosition;
+	bool					mMoveing;
+	QPoint					mMovePosition;
+	MyMessageBox*			m_MsBox;
 };
 
 #endif // DIALOGLOGIN_H

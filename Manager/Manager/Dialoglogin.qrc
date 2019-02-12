@@ -6,5 +6,7 @@
     <file>images/Login/pwd1.png</file>
     <file>images/Login/pwd2.png</file>
     <file>images/Login/question.png</file>
+    <file>images/buttonyes.png</file>
+    <file>images/Mwbk.png</file>
   </qresource>
 </RCC>

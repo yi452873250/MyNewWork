@@ -48,15 +48,34 @@ void DialogLogin::on_bt_showpwd_clicked()
 }
 void DialogLogin::on_bt_Cancel_clicked()
 {
-
+	this->close();
 }
 void DialogLogin::on_bt_Ok_clicked()
 {
+	QString user = ui.lineEdit_user->text();
+	QString pwd = ui.lineEdit_pwd->text();
+	if (user.isEmpty() || user == "" || pwd.isEmpty() || pwd == "")
+	{
+		this->m_MsBox = new MyMessageBox("用户名或者密码不能为空!");
 
+		this->m_MsBox->exec();
+		if (this->m_MsBox != NULL)
+		{
+			delete this->m_MsBox;
+			this->m_MsBox = NULL;
+		}
+	}
 }
 void DialogLogin::on_bt_question_clicked()
 {
+	this->m_MsBox = new MyMessageBox("有问题请联系管理员!");
 
+	this->m_MsBox->exec();
+	if (this->m_MsBox != NULL)
+	{
+		delete this->m_MsBox;
+		this->m_MsBox = NULL;
+	}
 }
 
 void DialogLogin::mousePressEvent(QMouseEvent *event)
