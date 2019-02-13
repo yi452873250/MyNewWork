@@ -65,6 +65,9 @@ void DialogLogin::on_bt_Ok_clicked()
 			this->m_MsBox = NULL;
 		}
 	}
+	this->m_MainForm = new MainForm();
+	this->m_MainForm->show();
+	this->close();
 }
 void DialogLogin::on_bt_question_clicked()
 {
