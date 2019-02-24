@@ -1,5 +1,9 @@
 <RCC>
   <qresource prefix="DialogLogin">
+    <file>images/close.png</file>
+    <file>images/mainBar.png</file>
+    <file>images/max.png</file>
+    <file>images/min.png</file>
     <file>images/Login/close.png</file>
     <file>images/Login/lgback.png</file>
     <file>images/Login/login.png</file>

@@ -88,12 +88,18 @@
     <CustomBuild Include="MainForm.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="MainForm.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_Dialoglogin.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_MyMessageBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainForm.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
